@@ -1,0 +1,80 @@
+body, html {
+    margin: 0;
+    padding: 0;
+    height: 100%;
+    font-family: Arial, sans-serif;
+}
+
+body {
+    background: url('https://images.pexels.com/photos/2302809/pexels-photo-2302809.jpeg?auto=compress&cs=tinysrgb&w=600') no-repeat center center fixed; 
+    background-size: cover;
+    width: 100%;
+}
+
+.container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100%;
+    width:100%;
+}
+
+.signup-form {
+    background:transparent;
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0 0 10px rgba(192, 50, 50, 0.1);
+    width: 600px;
+    
+}
+
+.signup-form h2 {
+    margin-bottom: 20px;
+    text-align: center;
+    color: azure;
+    font-weight: 800;
+}
+
+.signup-form label {
+    display: block;
+    margin-bottom: 5px;
+    font-size: 20;
+    font-weight: 800;
+    color: aliceblue;
+}
+
+.signup-form input {
+    width: 97%;
+    padding: 10px;
+    margin-bottom: 10px;
+    border: 2px solid #450202;
+    border-radius: 50px;
+}
+
+.signup-form button {
+    width: 100%;
+    padding: 10px;
+    background: #28a745;
+    border: none;
+    border-radius: 5px;
+    color: white;
+    font-size: 16px;
+    margin-bottom: 10px;
+    cursor: pointer;
+}
+
+.signup-form button:hover {
+    background: #218838;
+}
+
+.signup-form .login-button {
+    display: block;
+    text-align: center;
+    text-decoration: none;
+    color: #007bff;
+    font-size: 20 px;
+}
+
+.signup-form .login-button:hover {
+    text-decoration: underline;
+}

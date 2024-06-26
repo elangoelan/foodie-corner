@@ -1,0 +1,206 @@
+*{
+    box-sizing: border-box;
+}
+body{
+    margin:0;
+    width:100% ;
+    background-color: white;
+    
+}
+.header{
+    position :relative;
+    
+}
+.images-container{
+    width: 95%;
+    height: 8%;
+    justify-content: center;
+    object-fit:cover;
+    
+
+    
+}
+.images-container img{
+    width: 100%;
+    height: 900%;
+    object-fit:cover;
+   transform: scale(1.1);
+}
+.header-body-section{
+    position: absolute ;
+    top: 0;
+    width: 100% ;
+    color: white;
+    
+}
+.logo ul li img{
+    margin-left:0px;
+}
+.nav {
+    
+    font-weight: 550;
+ 
+  
+}
+.container{
+    width: 83%;
+    margin: auto;
+    color:white;
+    
+    
+
+}
+.container div ul li a{
+   font-weight: 900;
+   font-size: x-large;
+    padding: 20px;
+    display: flex;
+    margin-top: 25px;
+    margin-left: 200px;
+    
+}
+.navcontainer{
+    display: fex;
+    justify-content:space-between ;
+    align-items: center;
+    font-size: 10px;
+    font-weight: 200;
+    
+    margin-left: 20px;
+   
+    
+}
+
+.nav ul{
+    list-style: none;
+    display: flex;
+    justify-content: space-between;
+    
+}
+.logo img{
+    
+    height:100px;
+    margin-top:052px;
+    display: flex;
+    justify-content: space-around;
+}
+.nav ul li{
+    padding: 10px;
+    font: bold;
+    font-size: 20px;
+    font-weight: 500px;
+    font: display 11px;
+    
+    margin-left: 0px;
+   
+    
+}
+.food-logo{
+    width: 30%;
+    background-size: contain;
+    align-items: center;
+    margin-left:35%;
+    padding: 5%;
+   
+
+}
+.description{
+    margin-left: 35%;
+    font-weight: 600;
+    font-size: x-large;
+    margin-top: 1px;
+    position: center;
+}
+.search{
+    background-color: white;
+    width: 100%;
+    height:55px;
+    max-width: 750px;  
+    margin-left: 25%; 
+    border-radius: 10px;
+    display: flex;
+    padding: 7px ;
+    align-items: center;
+    color: black;
+
+}
+.location-map{
+    color: red;
+    font-size: 25px;
+
+}
+.caret-down{
+    color: black;
+}
+.detectlocation input{
+    border: none;
+    font-size: 14px;
+    width: 190px;
+}
+.search-item{
+    color: rgb(6, 6, 6);
+    font-size: 15px;
+}
+.line{
+    padding: 5px ;
+}
+.search-item input{
+    width: 400px;
+    font-size: 15px;
+    border:none;
+    max-width:100%;
+    padding: 5 10px;
+    outline: none;
+}
+.container-fetures{
+    display: flex;
+    justify-content: space-between;
+}
+.box-container{
+    display: flex;
+    padding-top: 600px;
+    
+    height: 20%;
+    border: 0.5 solid gray;
+    
+    justify-content: space-around;
+    
+    
+}
+.features-image{
+    height:300px;
+    overflow :hidden;
+    
+
+    
+}
+.container div ul li a:hover{
+    transition: transform 0.2s;
+    transform:scale(0.8);
+}
+.features-image img{
+    width: 100%;
+    border-radius: 20px;
+    border: 2px solid gray;
+}
+.features:hover{
+    transition: transform 0.5s;
+    transform:scale(1.05);
+}
+.navcontainer ul li img{
+    
+    height:100px;
+    margin-top:05px;
+    
+}
+
+
+
+
+
+
+
+
+
+
+

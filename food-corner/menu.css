@@ -1,0 +1,159 @@
+.checked {
+    color: orange;
+
+}
+.body{
+    background-image:url('https://images.pexels.com/photos/3693393/pexels-photo-3693393.jpeg?auto=compress&cs=tinysrgb&w=600');
+    background-size: cover;
+    background-repeat: no-repeat;
+   
+    
+}
+.fa-cart-shopping{
+    color: rgb(11, 11, 11);
+}
+.fa-cart-plus{
+    color: black;
+}
+.add-to-cart-btn {
+    display: inline-flex;
+    align-items: center;
+    padding: 10px 20px;
+    background-color: #28a745;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    font-size: 16px;
+    text-decoration: none;
+    margin-left: 20%;
+}
+
+.add-to-cart-btn:hover {
+    background-color: rgb(214, 96, 12);
+}
+
+.add-to-cart-btn img {
+    margin-right: 5px; /* Space between icon and text */
+    width: 20px; /* Adjust the icon size */
+    height: 20px;
+   
+    
+}
+.menu_box{
+    background-color: rgb(253, 249, 249);
+    max-width: 18.5%;
+    border: 2px solid black; /* Border line */
+    border-radius: 5px;
+
+}
+
+.h3 {
+    margin-left: 2%;
+}
+.review {
+    margin-left: 2%;
+}
+.loc {
+    margin-left: 2%;
+}
+.price {
+    margin-left: 2%;
+}
+.nood{
+    width: 98.5%;
+}
+.biri{
+    width: 98.5%;
+}
+.piz{
+    width: 98.5%;
+}
+.fish{
+    width: 98.5%;
+}
+.chick{
+    width: 98.5%;
+}
+.parotta{
+    width: 98.5%;  
+}
+
+.menu_box-1{
+    width:20%;
+    border: solid;
+    margin-left: 5%;
+    margin-top: 2%;
+    padding: 1%;
+    border-radius: 10px;
+}
+.menu_box-1:hover{
+    transform: scale(1.2);
+    transition: 0.5s;
+
+}
+.menu_box-2{
+    width:20%;
+    border: solid;
+    margin-top: 3%;
+    padding: 1%;
+    border-radius: 10px;
+    margin-left: 5%;
+}
+.menu_box-2:hover{
+    transform: scale(1.2);
+    transition: 0.5s;
+
+}
+.menu_box-3{
+    width:20%;
+    border: solid;
+    margin-left: 35%;
+    margin-top: -63%;
+    padding: 1%;
+    border-radius: 10px;
+}
+.menu_box-3:hover{
+    transform: scale(1.2);
+    transition: 0.5s;
+
+}
+.menu_box-4{
+    width:20%;
+    border: solid;
+    margin-left: 35%;
+    margin-top: %;
+    border-radius: 10px;
+    padding: 1%;
+}
+.menu_box-4:hover{
+    transform: scale(1.2);
+    transition: 0.5s;
+
+}
+.menu_box-5{
+    width:20%;
+    border-radius: 10px;
+    border: solid;
+    margin-left: 65%;
+    margin-top: -63%;
+    padding: 1%;
+}
+.menu_box-5:hover{
+    transform: scale(1.2);
+    transition: 0.5s;
+
+}
+.menu_box-6{
+    width:20%;
+    border-radius: 10px;
+    border: solid;
+    margin-left: 65%;
+    margin-top: %;
+    padding: 1%;
+}
+.menu_box-6:hover{
+    transform: scale(1.2);
+    transition: 0.5s;
+
+}
